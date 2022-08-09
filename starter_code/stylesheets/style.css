@@ -6,6 +6,38 @@ paragraph grey: #5b5e6d;
 nav grey: #5b5e6d;
 */
 
- body {
-    background-color: red ;
- }
+.flex-navegador {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-style: solid;
+    border-left: none;
+    border-right: none;
+    border-color: #F4F3F4;
+}
+.flex-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 5%;
+}
+.menu {
+    justify-items: center;
+    text-align: center;
+    width: 150px;
+    font-size: large;
+}
+#logo-nav {
+    margin-left: 5.2%;
+    width: 8%;
+    height: 8%;
+}
+
+
+
+
+
+
+
