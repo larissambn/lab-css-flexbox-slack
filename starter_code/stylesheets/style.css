@@ -26,18 +26,18 @@ nav grey: #5b5e6d;
 .menu {
     justify-items: center;
     text-align: center;
+    vertical-align: middle;
     width: 150px;
     font-size: large;
     font-size: "";
     color: gray;
     height: 50px;
 
-
 }
 #logo-nav {
-    margin-left: 5.2%;
-    width: 8%;
-    height: 8%;
+    margin-left: 2.8%;
+    width: 7.5%;
+    height: 7.5%;
 }
 
 
