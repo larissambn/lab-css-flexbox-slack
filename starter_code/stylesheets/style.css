@@ -28,6 +28,11 @@ nav grey: #5b5e6d;
     text-align: center;
     width: 150px;
     font-size: large;
+    font-size: "";
+    color: gray;
+    height: 50px;
+
+
 }
 #logo-nav {
     margin-left: 5.2%;
