@@ -1,27 +1,23 @@
-/*
-background-grey: #F4F3F4;
-button-purple: #192592
-main-titles dark-grey: #2C303F;
-paragraph grey: #5b5e6d;
-nav grey: #5b5e6d;
-*/
+
+body {
+    background-color : white
+}
 
 .flex-navegador {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     border-style: solid;
     border-left: none;
     border-right: none;
     border-color: #F4F3F4;
 }
-.flex-menu {
+.flex-item {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin-right: 5%;
+
 }
 .menu {
     justify-items: center;
@@ -29,20 +25,111 @@ nav grey: #5b5e6d;
     vertical-align: middle;
     width: 150px;
     font-size: large;
-    font-size: "";
     color: gray;
     height: 50px;
+    border: 1px solid black;
 
 }
 #logo-nav {
     margin-left: 2.8%;
     width: 7.5%;
     height: 7.5%;
+} 
+
+.rightside-container {
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+    float: right;
+
+    height: 25%;
+    margin-right: 20px;
+    padding: 1px;
+    width: 45%;
+    
 }
 
+.right {
 
+font-size: large;
+font-family: lucida console;
+color: rgb(66, 61, 61);
+padding : 1px;
+margin: 1 px;
 
+}
 
+h1 {
+
+font-size: 75px;
+font-family:georgia;
+color: rgb(29, 27, 27);
+padding: 1px;
+margin-right: 3px;
+
+}
+
+#purple-button {
+
+ border: 0px;
+ border-style:none;
+ font-size: medium;
+ width: 25px;  
+
+}
+
+.middle-container {
+    display: flex;
+    flex-direction:column; 
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    box-sizing: border-box;
+
+    height: 50%;
+    margin-right: 40px;
+    margin-left: 325px;
+    padding: 50px;
+    width: 50%;
+
+    font-size: medium;
+    font-family: monaco;
+
+}
+
+.responsive-div {
+
+    @media (min-width: 6px) and (max-width: 9px) 
+    {background-color: gray;}
+  };
+  
+.bottom-container {
+    display: flex;
+    flex-direction:row; 
+    justify-content: flex-start;
+}
+
+#bottom-right { 
+    justify-content: flex-end;
+
+}
+
+.last-container {
+
+    display: flex;
+    flex-direction:column-reverse; 
+    justify-content: center;
+    align-items: baseline;
+    align-content: center;
+    text-align: center;
+    float: right;
+
+}
 
 
 
